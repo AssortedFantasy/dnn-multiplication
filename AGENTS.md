@@ -6,11 +6,7 @@
 
 * You should try to use types. Avoid dict typing and instead use dataclasses. Some library code results in type errors due to a lack of annotations and that is acceptable.
 
-* Do not overengineer things. Keep things simple and neat. Avoid creating deep abstractions.
-
-* Do not leave deprecated code for backwards compatibility. It causes confusion and maintenance challenges. This is a research project, not a dependency.
-
-* Priority is low technical debt and fast iteration speed.
+* Do not leave deprecated code for backwards compatibility. It causes confusion and maintenance challenges. This is a research project, not a dependency, priority is low technical debt and fast iteration speed.
 
 * Don't create functions that take in a hodgepodge of different types for one argument. Be specific about what types you expect. For example don't create functions that take in any number of numeric types.
 
@@ -27,3 +23,5 @@ def square_root(n):
 
     """
 ```
+
+* Flax and NNX are being used for neural networks.
